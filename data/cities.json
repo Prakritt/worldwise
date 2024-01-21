@@ -49,15 +49,15 @@
       }
     },
     {
-      "id": "93e5",
-      "cityName": "Useras",
-      "country": "Spain",
-      "emoji": "🇪🇸",
-      "date": "2024-01-20T18:54:46.141Z",
-      "notes": "nishant",
+      "id": "64ee",
+      "cityName": "Los Angeles",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-01-21T17:13:31.196Z",
+      "notes": "I stay Here",
       "position": {
-        "lat": "40.165231810402375",
-        "lng": "-0.12496948242187501"
+        "lat": "33.903146739405635",
+        "lng": "-118.08954119682313"
       }
     }
   ]
