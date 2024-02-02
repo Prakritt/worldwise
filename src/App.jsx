@@ -23,7 +23,7 @@ const Product = lazy(() => import("./pages/Product"));
 const Pricing = lazy(() => import("./pages/Pricing"));
 const PageNotFound = lazy(() => import("./pages/PageNotFound"));
 const AppLayout = lazy(() => import("./pages/AppLayout"));
-const HomePage = lazy(() => import("./pages/HomePage"));
+const Home = lazy(() => import("./pages/Home"));
 
 function App() {
   return (
@@ -32,7 +32,7 @@ function App() {
         <BrowserRouter>
           <Suspense fallback={<SpinnerFullPage />}>
             <Routes>
-              <Route path="/" element={<HomePage />} />
+              <Route path="/" element={<Home />} />
               <Route path="product" element={<Product />} />
               <Route path="pricing" element={<Pricing />} />
               <Route
