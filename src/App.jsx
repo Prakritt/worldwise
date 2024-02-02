@@ -21,9 +21,9 @@ import ProtectedRoute from "./pages/ProtectedRoute";
 const Login = lazy(() => import("./pages/Login"));
 const Product = lazy(() => import("./pages/Product"));
 const Pricing = lazy(() => import("./pages/Pricing"));
-const HomePage = lazy(() => import("./pages/HomePage"));
 const PageNotFound = lazy(() => import("./pages/PageNotFound"));
 const AppLayout = lazy(() => import("./pages/AppLayout"));
+const HomePage = lazy(() => import("./pages/HomePage"));
 
 function App() {
   return (

@@ -59,6 +59,18 @@
         "lat": "33.903146739405635",
         "lng": "-118.08954119682313"
       }
+    },
+    {
+      "id": "99d9",
+      "cityName": "Los Angeles",
+      "country": "United States of America (the)",
+      "emoji": "🇺🇸",
+      "date": "2024-02-02T22:12:09.203Z",
+      "notes": "Home",
+      "position": {
+        "lat": "33.779147331286474",
+        "lng": "-118.22662353515626"
+      }
     }
   ]
 }
