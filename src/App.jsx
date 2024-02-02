@@ -10,6 +10,7 @@ import SpinnerFullPage from "./components /SpinnerFullPage";
 import { CitiesProvider } from "./contexts /CitiesContext";
 import { AuthProvider } from "./contexts /AuthContext";
 import ProtectedRoute from "./pages/ProtectedRoute";
+import HomePage from "./pages/HomePage";
 
 // import Login from "./pages/Login";
 // import Product from "./pages/Product";
@@ -23,7 +24,6 @@ const Product = lazy(() => import("./pages/Product"));
 const Pricing = lazy(() => import("./pages/Pricing"));
 const PageNotFound = lazy(() => import("./pages/PageNotFound"));
 const AppLayout = lazy(() => import("./pages/AppLayout"));
-const HomePage = lazy(() => import("./pages/HomePage"));
 
 function App() {
   return (
